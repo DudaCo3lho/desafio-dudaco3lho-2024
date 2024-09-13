@@ -1,6 +1,6 @@
 import animais from "./animaisZoo";
 
-export class RecintosZoo {
+class RecintosZoo {
     constructor(nome, tipo, tamanhoTotal, animaisNoRecinto) {
         this.nome = nome;
         this.tipo = tipo;
@@ -50,3 +50,4 @@ export class RecintosZoo {
         return { recintos: recintosViaveis };
     }
 }
+export {RecintosZoo as RecintosZoo};
